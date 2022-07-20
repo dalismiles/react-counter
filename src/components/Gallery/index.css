@@ -1,0 +1,13 @@
+.Gallery {
+  margin: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.Gallery__photo {
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
